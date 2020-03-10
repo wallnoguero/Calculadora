@@ -11,6 +11,12 @@ public class Calculadora {
        } else if (operador.trim().equals("-")) {
           System.out.println("Calculadora" + "\nSubtracao" + "\nResultado: " + n1 + " - " + n2 + " = " + (n1 - n2));
           JOptionPane.showMessageDialog(null, "Calculadora" + "\nSubtracao" + "\nResultado: " + n1 + " - " + n2 + " = " + (n1 - n2));
-         
+         } else if (operador.trim().equals("*")) {
+             System.out.println("Calculadora" + "\nMultiplicacao" + "\nResultado: " + n1 + " * " + n2 + " = " + (n1 * n2));
+             JOptionPane.showMessageDialog(null, "Calculadora" + "\nMultiplicacao" + "\nResultado: " + n1 + " * " + n2 + " = " + (n1 * n2));
+           } else if (operador.trim().equals("/")) {
+                System.out.println("Calculadora" + "\nDivisao" + "\nResultado: " + n1 + " / " + n2 + " = " + (n1 / n2));
+                JOptionPane.showMessageDialog(null, "Calculadora" + "\nDivisao" + "\nResultado: " + n1 + " / " + n2 + " = " + (n1 / n2));
+             }
    }
 }
